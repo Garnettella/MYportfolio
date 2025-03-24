@@ -271,16 +271,12 @@ color: var(--main-color);
     to {
         border-left: 3px solid var(--main-color);
     }
-}*/
-@media (max-width:1000px){
-    .home {
-        gap:4rem;
-    }
-}
+}*/
 @media (max-width:1000px){
     .home {
         flex-direction: column;
         margin : 5rem 4rem;
+        gap:4rem;
     }
     .home .home-content h3 {
         font-size: 2.5rem;
